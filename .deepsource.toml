@@ -1,0 +1,17 @@
+version = 1
+
+exclude_patterns = [
+  "bin/**",
+  "vendor/**",
+  "assets/**",
+  "config/**",
+  "docs/**",
+  "public/**",
+  "tests/**",
+  "translations/**",
+  "var/**"
+]
+
+[[analyzers]]
+name = "php"
+enabled = true
