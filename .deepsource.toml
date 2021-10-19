@@ -1,15 +1,14 @@
 version = 1
 
+test_patterns = ["tests/**"]
+
 exclude_patterns = [
   "bin/**",
-  "vendor/**",
-  "assets/**",
-  "config/**",
-  "docs/**",
+  "templates/**",
+  "var/**",
   "public/**",
-  "tests/**",
-  "translations/**",
-  "var/**"
+  "docs/**",
+  "vendor/**"
 ]
 
 [[analyzers]]
